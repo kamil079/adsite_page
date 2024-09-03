@@ -11,24 +11,19 @@
         </div>
         <ul class="splide__list">
             <li class="splide__slide">
-                <img loading='lazy' src="/images/slider-img/alfa.webp" alt="red alfa romeo"
-                
+                <img loading='lazy' src="/images/slider-img/alfa.webp" alt="red alfa romeo" >
             </li>
             <li class="splide__slide">
-                <img loading='lazy' src="/images/slider-img/maseratti.webp" alt="black maseratti"
-                
+                <img loading='lazy' src="/images/slider-img/maseratti.webp" alt="black maseratti" >
             </li>
             <li class="splide__slide">
-                <img loading='lazy' src="/images/slider-img/audi-matrix.webp"
-                    alt="audi matrix headlight"
+                <img loading='lazy' src="/images/slider-img/audi-matrix.webp" alt="audi matrix headlight" >
             </li>
             <li class="splide__slide">
-                <img loading='lazy' src="/images/slider-img/road.webp"
-                    alt="photo of road in fast motion" class='bg-no-repeat bg-cover bg-center w-[600px] h-[446px] '>
+                <img loading='lazy' src="/images/slider-img/road.webp" alt="photo of road in fast motion" class='bg-no-repeat bg-cover bg-center w-[600px] h-[446px] '>
             </li>
             <li class="splide__slide">
-                <img loading='lazy' src="/images/slider-img/mini.webp"
-                    alt="mini cooper headlight"
+                <img loading='lazy' src="/images/slider-img/mini.webp" alt="mini cooper headlight" >
             </li>
         </ul>
     </div>

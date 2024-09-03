@@ -20,8 +20,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }).mount();
 
 
-
-    const toggleBurger = () => {
-        
-    }
+ 
 });
