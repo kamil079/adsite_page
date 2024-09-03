@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Bebas Neue", sans-serif;
+    src: url("/public/fonts//BebasNeue-Regular.woff2") format("woff2"),
+        url("/public/fonts//BebasNeue-Regular.woff") format("woff"),
+        url("/public/fonts//BebasNeue-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}

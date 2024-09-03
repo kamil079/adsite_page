@@ -1,0 +1,58 @@
+@import url("bebas-neue.css");
+@import '@splidejs/splide/dist/css/splide.min.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    
+    body {
+        font-family: "Bebas Neue";
+        background-color: #F7F7F7;
+    }
+
+    .roboto-flex {
+        font-family: "Roboto Flex", sans-serif;
+        src: url("/public/fonts/RobotoFlex-Regular.woff2") format("woff2"),
+            url("/public/fonts/RobotoFlex-Regular.woff") format("woff"),
+            url("/public/fonts/RobotoFlex-Regular.ttf") format("truetype");
+        font-weight: 600;
+        /* font-display: swap; */
+        font-style: normal;
+    }
+    .roboto-condensed {
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    } 
+    .splide__pagination { 
+        bottom: .5rem;
+        @media (min-width:768px) {
+            bottom: 5rem;
+        }
+    } 
+    .splide__pagination__page.is-active {
+        background-color: #007bff !important;
+        transform: none;
+    } 
+    .splide__slide {
+        position: relative;
+        width: 100%;
+        overflow: hidden;  
+    }
+    .splide__slide::before {
+        content: "";
+        display: block;
+        padding-top: 74.33%; /* 446px / 600px * 100% to maintain 446x600 ratio */
+    }
+    .splide__slide img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;  
+    }
+}
