@@ -30,8 +30,7 @@
     @include('partials.hero')
     @include('partials.slider')
     @include('partials.more-info')
-    @include('partials.footer')
-<script>
+    @include('partials.footer') 
 </body>
 
 </html>
